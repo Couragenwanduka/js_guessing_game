@@ -1,0 +1,110 @@
+body{
+  display: flex;
+  background-color: rgb(37, 92, 230);
+  justify-content: center;
+  margin-top: 15%;
+}
+.one{
+  font-size: 60px;
+  color: white;
+  overflow-wrap: break-word;
+  inline-size: 290px;
+  font-weight: 500;
+  word-spacing: 1000px;
+}
+.div1{
+  display: flex;
+}
+.line{
+  background-color: white;
+  border-radius: 20px;
+  color: white;
+  margin-right: 20px;
+}
+.div2{
+  margin-left: 50px;
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+}
+.two{
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 1px;
+  margin-top: 70px;
+  font-family: sans-serif;
+}
+.three{
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.inputField{
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+.button{
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px 15px 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.messagep{
+  margin-left: 25%;
+  font-size: 20px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.messagea{
+  margin-left: 20%;
+  font-size: 20px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+button:disabled,button[disabled]{
+  cursor: not-allowed;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px 15px 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  opacity: 0.2;
+}
+input:disabled,input[disabled]{
+  cursor: not-allowed;
+  /* background-color: blue;
+  color: white; */
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  opacity: 0.2;
+  text-decoration: line-through;
+}
+.resetButton{
+  background-color: transparent !important;;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none !important;
+}
